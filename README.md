@@ -1,7 +1,6 @@
 # Introduction
 
-The drop wizard example application was developed to, as its name implies, provide examples of some of the features
-present in drop wizard.
+It is an sample application based on dropwizard and swagger examples.
 
 # Overview
 
@@ -23,6 +22,10 @@ your application for the first time.
 of the PersonDAO in their constructors.
 
 As with all the modules the db example is wired up in the `initialize` function of the `HelloWorldApplication`.
+
+* The swagger API document annotation in `PeopleResource.java`
+
+* Include swagger by changing `HelloWorldApplication.java`
 
 # Running The Application
 
