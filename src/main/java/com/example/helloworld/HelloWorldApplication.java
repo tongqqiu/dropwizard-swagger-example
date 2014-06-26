@@ -59,7 +59,7 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
         bootstrap.addBundle(new ViewBundle());
 
 
-        bootstrap.addBundle(new AssetsBundle("/assets/", "/apidoc"));
+        bootstrap.addBundle(new AssetsBundle("/assets/", "/api"));
 
     }
 
